@@ -130,6 +130,7 @@
     <ClCompile Include="addMember.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="print_Menu.c" />
+    <ClCompile Include="saveMember.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />

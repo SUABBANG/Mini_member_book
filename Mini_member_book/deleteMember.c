@@ -1,8 +1,6 @@
 #include "header.h"
 #include <stdio.h>
 
-void addMember() {
-	printf("test");
-
+deleteMember() {
 	return 0;
 }

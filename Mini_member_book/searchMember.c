@@ -1,8 +1,7 @@
 #include "header.h"
 #include <stdio.h>
 
-void addMember() {
-	printf("test");
+void searchMember() {
 
 	return 0;
 }

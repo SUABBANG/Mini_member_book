@@ -1,7 +1,7 @@
 #include "header.h"
 #include <stdio.h>
 
-void addMember() {
+void editMember() {
 	printf("test");
 
 	return 0;

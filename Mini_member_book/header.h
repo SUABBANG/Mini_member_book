@@ -15,5 +15,10 @@ typedef struct {
 } Member;
 
 void printMenu();
+void addMember();
+void editMember();
+void deleteMember();
+void searchMember();
+void allMemeber();
 
 #endif
