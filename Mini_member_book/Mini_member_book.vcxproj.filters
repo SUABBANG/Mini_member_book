@@ -24,7 +24,16 @@
     <ClCompile Include="print_Menu.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="saveMember.c">
+    <ClCompile Include="editMember.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteMember.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="searchMember.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="allMemeber.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

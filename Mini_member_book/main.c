@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h> //for exit()
 #include "header.h"
 
 int main(void) {

@@ -128,9 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="addMember.c" />
+    <ClCompile Include="allMemeber.c" />
+    <ClCompile Include="deleteMember.c" />
+    <ClCompile Include="editMember.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="print_Menu.c" />
-    <ClCompile Include="saveMember.c" />
+    <ClCompile Include="searchMember.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />
