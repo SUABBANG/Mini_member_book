@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h> //for exit()
 #include "header.h"
@@ -18,10 +19,27 @@ int main(void) {
 				//회원 추가
 				addMemeber();
 				break;
-			case 2:
-				// 회원 수정
-				//editMember();
+			case 2: {
+				char searchPhone[MAX_PHONE_LEN];
+				char newName[MAX_NAME_LEN];
+				char newPhone[MAX_PHONE_LEN];
+				char newEmail[MAX_EMAIL_LEN];
+
+				printf("수정할 회원의 전화번호를 입력하세요: ");
+				scanf("%s", searchPhone);
+
+				printf("새로운 이름을 입력하세요: ");
+				scanf("%s", newName);
+
+				printf("새로운 전화번호를 입력하세요: ");
+				scanf("%s", newPhone);
+
+				printf("새로운 이메일을 입력하세요: ");
+				scanf("%s", newEmail);
+
+				editMember(searchPhone, newName, newPhone, newEmail);
 				break;
+			}
 			case 3:
 				// 회원 삭제
 				//deleteMember();

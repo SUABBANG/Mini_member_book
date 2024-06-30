@@ -4,11 +4,13 @@
     <ClCompile Include="addMember.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="print_Menu.c" />
+    <ClCompile Include="editMember.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="member.csv" />
+    <None Include="temp.csv" />
   </ItemGroup>
 </Project>

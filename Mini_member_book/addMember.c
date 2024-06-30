@@ -5,8 +5,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define CSV_FILE "member.csv"
-
 int isPhoneDuplicate(const char* phone) {
 	FILE* file = fopen(CSV_FILE, "r"); //읽기 전용
 	if (file == NULL) { 

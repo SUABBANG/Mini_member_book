@@ -8,6 +8,9 @@
 #define MAX_NAME_LEN 50
 #define MAX_PHONE_LEN 50
 #define MAX_EMAIL_LEN 100
+#define MAX_LINE_LEN 256
+
+#define CSV_FILE "member.csv"
 
 
 typedef struct {
@@ -18,6 +21,8 @@ typedef struct {
 
 void printMenu();
 void addMemeber();
+void editMember(const char* beforePhone, const char* newName, const char* newPhone, const char* newEmail);
+int isPhoneDuplicate(const char* phone);
 
 
 #endif
