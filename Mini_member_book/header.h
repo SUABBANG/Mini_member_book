@@ -21,7 +21,9 @@ typedef struct {
 
 void printMenu();
 void addMemeber();
-void editMember(const char* beforePhone, const char* newName, const char* newPhone, const char* newEmail);
+void editMember(const char* beforePhone, const char* newName, const char* newEmail);
+void deleteMember(const char* phoneToDelete);
+
 int isPhoneDuplicate(const char* phone);
 
 

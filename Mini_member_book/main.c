@@ -22,7 +22,6 @@ int main(void) {
 			case 2: {
 				char searchPhone[MAX_PHONE_LEN];
 				char newName[MAX_NAME_LEN];
-				char newPhone[MAX_PHONE_LEN];
 				char newEmail[MAX_EMAIL_LEN];
 
 				printf("수정할 회원의 전화번호를 입력하세요: ");
@@ -31,19 +30,21 @@ int main(void) {
 				printf("새로운 이름을 입력하세요: ");
 				scanf("%s", newName);
 
-				printf("새로운 전화번호를 입력하세요: ");
-				scanf("%s", newPhone);
-
 				printf("새로운 이메일을 입력하세요: ");
 				scanf("%s", newEmail);
 
-				editMember(searchPhone, newName, newPhone, newEmail);
+				editMember(searchPhone, newName, newEmail);
 				break;
 			}
-			case 3:
+			case 3: {
 				// 회원 삭제
-				//deleteMember();
+				char searchPhone[MAX_PHONE_LEN];
+
+				printf("삭제할 회원의 전화번호를 입력하세요: ");
+				scanf("%s", searchPhone);
+				deleteMember(searchPhone);
 				break;
+			}
 			case 4:
 				// 회원 검색
 				//searchMember();

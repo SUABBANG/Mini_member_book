@@ -5,6 +5,7 @@
     <ClCompile Include="main.c" />
     <ClCompile Include="print_Menu.c" />
     <ClCompile Include="editMember.c" />
+    <ClCompile Include="deleteMember.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />
