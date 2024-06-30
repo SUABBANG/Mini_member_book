@@ -127,11 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="addMember.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="print_Menu.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="member.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

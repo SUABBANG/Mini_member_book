@@ -5,9 +5,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX_NAME_LEN 10
-#define MAX_PHONE_LEN 20
-#define MAX_EMAIL_LEN 50
+#define MAX_NAME_LEN 50
+#define MAX_PHONE_LEN 50
+#define MAX_EMAIL_LEN 100
+
 
 typedef struct {
 	char name[MAX_NAME_LEN];
@@ -16,6 +17,7 @@ typedef struct {
 } Member;
 
 void printMenu();
+void addMemeber();
 
 
 #endif

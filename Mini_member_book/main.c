@@ -2,6 +2,7 @@
 #include <stdlib.h> //for exit()
 #include "header.h"
 
+
 int main(void) {
 	
 	int choice;
@@ -15,7 +16,7 @@ int main(void) {
 		switch (choice) {
 			case 1:
 				//회원 추가
-				//addMember();
+				addMemeber();
 				break;
 			case 2:
 				// 회원 수정
