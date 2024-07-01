@@ -47,11 +47,11 @@ int main(void) {
 			}
 			case 4:
 				// 회원 검색
-				//searchMember();
+				searchMember();
 				break;
 			case 5:
 				// 전체 회원 출력
-				//allMember();
+				allMember();
 				break;
 			case 6:
 				printf("프로그램을 종료합니다.");

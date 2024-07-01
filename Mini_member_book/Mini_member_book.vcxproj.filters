@@ -6,6 +6,8 @@
     <ClCompile Include="print_Menu.c" />
     <ClCompile Include="editMember.c" />
     <ClCompile Include="deleteMember.c" />
+    <ClCompile Include="searchMember.c" />
+    <ClCompile Include="allMember.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />

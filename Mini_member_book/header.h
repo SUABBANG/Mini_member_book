@@ -10,6 +10,9 @@
 #define MAX_EMAIL_LEN 100
 #define MAX_LINE_LEN 256
 
+
+#define MAX_MEMBERS 1000
+
 #define CSV_FILE "member.csv"
 
 
@@ -23,8 +26,12 @@ void printMenu();
 void addMemeber();
 void editMember(const char* beforePhone, const char* newName, const char* newEmail);
 void deleteMember(const char* phoneToDelete);
+void searchMember();
+void allMember();
 
 int isPhoneDuplicate(const char* phone);
-
+void searchByName(char* name);
+void searchByPhone(char* phone);
+void searchByEmail(char* email);
 
 #endif
